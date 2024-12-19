@@ -11,22 +11,27 @@
 <br>
 
 <div align="center">
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/ModelMorph/ModelMorph/">
-    <img src="https://travis-ci.org/ModelMorph/ModelMorph.svg?branch=master" alt="build">
+  <!-- Build Status - Travis CI -->
+  <a href="https://travis-ci.org/github/ModelMorph/ModelMorph">
+    <img src="https://img.shields.io/travis/github/ModelMorph/ModelMorph/master?style=flat-square&logo=travis" alt="Travis CI Build Status">
   </a>
+
+  <!-- Build Status - AppVeyor -->
   <a href="https://ci.appveyor.com/project/ModelMorph/ModelMorph/branch/master">
-    <img src="https://ci.appveyor.com/api/projects/status/l4gxgydj0i95hmxg/branch/master?svg=true" alt="build">
+    <img src="https://img.shields.io/appveyor/ci/ModelMorph/ModelMorph/master?style=flat-square&logo=appveyor" alt="AppVeyor Build Status">
   </a>
-  <!-- Downloads total -->
+
+  <!-- Total Downloads -->
   <a href="https://github.com/ModelMorph/ModelMorph/releases">
-    <img src="https://img.shields.io/github/downloads/ModelMorph/ModelMorph/total.svg" alt="total download">
+    <img src="https://img.shields.io/github/downloads/ModelMorph/ModelMorph/total?style=flat-square" alt="Total Downloads">
   </a>
-  <!-- Downloads latest release -->
+
+  <!-- Latest Release Downloads -->
   <a href="https://github.com/ModelMorph/ModelMorph/releases/latest">
-    <img src="https://img.shields.io/github/downloads/ModelMorph/ModelMorph/v0.1.0/total.svg" alt="latest download">
+    <img src="https://img.shields.io/github/downloads/ModelMorph/ModelMorph/v0.1.0/total?style=flat-square" alt="Latest Release Downloads">
   </a>
 </div>
+
 
 <div align="center">
   <h3>
