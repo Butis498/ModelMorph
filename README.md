@@ -86,25 +86,26 @@ The project is structured to provide modularity and easy extensibility for vario
 
 ```text
 ModelMorph/
-├── README.md                        # Project overview and documentation
-├── pyproject.toml                   # Python project configuration
-├── requirements.txt                 # List of dependencies
-├── setup.cfg                        # Configuration file for setup tools
-├── modelmorph/
-│   ├── chatbot/
-│   │   ├── assistant/               # Assistant-related functionality
-│   │   ├── domain/                  # LLM model handling
-│   │   ├── plugins/                 # Plugins for additional functionality (e.g., NLP to SQL)
-│   │   └── repository/              # Repository for interacting with external APIs (e.g., OpenAI)
-│   ├── db/
-│   │   ├── domain/                  # Database domain logic (cloud and local DB handling)
-│   │   └── repository/              # Repositories for interacting with various databases (Azure, MongoDB, MySQL)
-│   ├── docs/
-│   │   ├── DB Design.md             # Database design document
-│   │   ├── UML.md                   # UML design document
-│   │   └── Flow Diagram.drawio      # System flow diagram
-│   └── logger/                      # Logging functionality
-└── test.py                          # Test script for the project
+├── modelmorph
+│   ├── chatbot
+│   │   ├── assistant
+│   │   ├── domain
+│   │   ├── plugins
+│   │   └── repository
+│   ├── db
+│   │   ├── domain
+│   │   └── repository
+│   ├── docs
+│   │   ├── CONTRIBUTING.md
+│   │   ├── dev
+│   │   └── icons
+│   ├── logger
+│   └── tests
+│       └── main_test.py
+├── pyproject.toml
+├── requirements.txt
+└── setup.cfg
+
 
 ```
 
