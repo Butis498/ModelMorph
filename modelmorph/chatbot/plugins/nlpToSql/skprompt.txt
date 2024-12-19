@@ -1,0 +1,9 @@
+### SQL SERVER SQL tables, with their properties:
+#
+# ExplorationProduction (WellID, WellName, Location, ProductionDate, ProductionVolume, Operator, FieldName, Reservoir, Depth, APIGravity, WaterCut, GasOilRatio)
+#
+### A SQL query to find {{$input}}, give me the query folloiwng the following rules:
+    1. Only one query.
+    2. The query can only use the given information.
+    3. The output message should be a clean sql query with no extra explanation or aclaration.
+    4. Avoid extra spaces at the begining and at the end of the Query.

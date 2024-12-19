@@ -1,0 +1,9 @@
+{
+    "schema": 1,
+    "description": "NLP to SQL",
+    "temperature": 0,
+    "top_p": 0.0,
+    "max_tokens": 100,
+    "stop": ["\n"],
+    "n": 1
+}

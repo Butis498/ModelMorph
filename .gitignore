@@ -1,0 +1,71 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders (commonly named 'venv', '.venv', etc.)
+venv/
+.venv/
+env/
+.env/
+ENV/
+.Python
+.pytest_cache/
+
+# Environment variables
+*.env
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+
+# Byte-compiled and shared object files
+*.dll
+*.so
+*.dylib
+
+# C extensions
+*.c
+*.o
+
+# Package directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE-specific files (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Configurations for test coverage and profiling
+.coverage
+*.coverage
+.cache
+.nox/
+.tox/
+.pytest_cache/
+
+# Static analysis
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+test**.py
