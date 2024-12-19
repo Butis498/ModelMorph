@@ -30,31 +30,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          poetry install
+          poetry install --with dev  # Ensures both regular and dev dependencies are installed
 
       - name: Run Tests with pytest
         run: |
-          pytest
-
-
-  # pypi-publish:
-  #   runs-on: ubuntu-latest
-  #   needs:
-  #     - release-build
-  #   permissions:
-  #     id-token: write
-
-  #   environment:
-  #     name: pypi
-
-  #   steps:
-  #     - name: Retrieve release distributions
-  #       uses: actions/download-artifact@v4
-  #       with:
-  #         name: release-dists
-  #         path: dist/
-
-  #     - name: Publish release distributions to PyPI
-  #       uses: pypa/gh-action-pypi-publish@release/v1
-  #       with:
-  #         packages-dir: dist/
+          poetry run pytest  # Runs pytest inside Poetry's virtual environment
