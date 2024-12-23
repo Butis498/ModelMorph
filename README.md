@@ -15,16 +15,24 @@
   <a href="https://github.com/Butis498/ModelMorph/actions/workflows/python-publish.yml">
       <img src="https://github.com/Butis498/ModelMorph/actions/workflows/python-publish.yml/badge.svg" alt="GitHub Actions Build Status">
   </a>
-
-  <!-- Total Downloads -->
+  <p>
+  <a href="https://github.com/Butis498/ModelMorph/issues">
+    <img src="https://img.shields.io/github/issues/Butis498/ModelMorph?style=flat-square" alt="Open Issues">
+  </a>
+  <a href="https://github.com/Butis498/ModelMorph/pulls">
+    <img src="https://img.shields.io/github/issues-pr/Butis498/ModelMorph?style=flat-square" alt="Open Pull Requests">
+  </a>
+  <a href="https://github.com/Butis498/ModelMorph">
+    <img src="https://img.shields.io/github/stars/Butis498/ModelMorph?style=flat-square" alt="Stars">
+  </a>
+  <a href="https://github.com/Butis498/ModelMorph">
+    <img src="https://img.shields.io/github/forks/Butis498/ModelMorph?style=flat-square" alt="Forks">
+  </a>
   <a href="https://github.com/Butis498/ModelMorph/releases">
-    <img src="https://img.shields.io/github/downloads/Butis498/ModelMorph/total?style=flat-square" alt="Total Downloads">
+    <img src="https://img.shields.io/github/v/release/Butis498/ModelMorph?style=flat-square" alt="Version">
   </a>
+</p>
 
-  <!-- Latest Release Downloads -->
-  <a href="https://github.com/Butis498/ModelMorph/releases/latest">
-    <img src="https://img.shields.io/github/downloads/Butis498/ModelMorph/v0.1.0/total?style=flat-square" alt="Latest Release Downloads">
-  </a>
 </div>
 
 
@@ -144,6 +152,11 @@ If you have questions, please write an issue. We welcome contributions and appre
 ## Contribution
 
 ModelMorph is looking for contributors! Please refer to our [Contributing Guide](modelmorph/docs/CONTRIBUTING.md) before submitting a pull request.
+## Future Enhancements
+
+Here are some future enhancements that you can help us to work on 😊: 
+- [Future Enhancements](modelmorph/docs/dev/NEXT.md)
+
 
 ## Contributors
 
